@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(145, 145, 145);
+}
+/* Base */
+.elemento{
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: 2px;
+    float: left;
+    box-shadow: 2px 2px 2px black;
+}
+.dados{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.atomico{
+    float: right;
+    display: block;
+    font-size: 10%;
+    margin-right: 2px;
+    font-weight: 500;
+}
+.simbolo{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    line-height: 25px;
+    font-weight: 800;
+}
+.nome{
+    width: 100%;
+    font-size: 10%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    line-height: 10px;
+    font-weight: 500;
+}
+.massa{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 5%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 5px;
+    font-weight: 400;
+}
+/* Cores */
+.corRosa{
+    background: rgb(252,141,248);
+    background: radial-gradient(circle, rgba(252,141,248,1) 0%, rgba(212,58,207,1) 100%);
+}
+.corVermelho{
+    background: rgb(255,118,128);
+    background: radial-gradient(circle, rgb(255, 165, 171) 0%, rgb(255, 92, 92) 100%);
+}
+.corLaranja{
+    background: rgb(255,198,118);
+    background: radial-gradient(circle, rgb(255, 208, 142) 0%, rgba(255,172,27,1) 100%);
+}
+.corAmarelo{
+    background: rgb(255,247,128);
+    background: radial-gradient(circle, rgba(255,247,128,1) 0%, rgba(255,222,27,1) 100%);
+}
+.corVerde{
+    background: rgb(184,255,128);
+    background: radial-gradient(circle, rgba(184,255,128,1) 0%, rgb(66, 236, 51) 100%);
+}
+.corAzul{
+    background: rgb(128,233,255);
+    background: radial-gradient(circle, rgba(128,233,255,1) 0%, rgba(27,162,255,1) 100%);
+}
+.corAzulE{
+    background: rgb(147,223,211);
+    background: radial-gradient(circle, rgba(147,223,211,1) 0%, rgba(86,168,135,1) 100%);
+}
+.corCiano{
+    background: rgb(147,182,223);
+    background: radial-gradient(circle, rgba(147,182,223,1) 0%, rgba(86,129,168,1) 100%);
+}
+.corAzulEscuro{
+    background: rgb(156,141,252);
+background: radial-gradient(circle, rgba(156,141,252,1) 0%, rgba(71,58,212,1) 100%);
+}
+.corTransparente{
+    background: transparent;
+    background-color: transparent;
+    box-shadow: none;
+}
+/* Barra */
+.Barra1A{
+    display: block;
+    border: 1px solid transparent;
+    height: 100%;
+    width: 57px;
+    float: left;
+}
+.Barra2A{
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin-left: 10px;
+}
+.Espaco{
+    margin-right: 3.7px!important;
+    margin-left: 3.3px!important;
+}
